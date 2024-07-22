@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 class Ball(Turtle):
     def __init__(self):
         super().__init__()
-        self.color("orange")
+        self.color("white")
         self.shape("circle")
         self.up()
         self.x_move = 10
