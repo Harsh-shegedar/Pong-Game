@@ -8,7 +8,7 @@ class Stick(Turtle):
         super().__init__()
         self.color("white")
         self.shape("square")
-        self.shapesize(4.5, 1)
+        self.shapesize(4.4, 1)
         self.up()
         self.goto(position)
 
